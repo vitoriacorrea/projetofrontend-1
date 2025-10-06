@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Graduate&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+:root {
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza-escuro: #2a2a2a;
+    --cinza-claro: #666666;
+    --vermelho-filme: #8B0000;
+    --vinho: #660000;
+    --destaque: #A52A2A;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #2d2d2d);
+    min-height: 100vh;
+    line-height: 1.6;
+    color: white;
+}
+
+/* HEADER SIMPLES E LIMPO */
+header {
+    background: linear-gradient(135deg, #2d2d2d, #3d3d3d);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    position: relative;
+    border-bottom: 3px solid var(--vermelho-filme);
+}
+
+.poster {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border: 3px solid white;
+    box-shadow: 0 8px 25px hsla(0, 0%, 0%, 0.4);
+}
+
+.poster-destaque {
+    max-width: 340px;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border: 3px solid white;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+.poster:hover, .poster-destaque:hover {
+    transform: scale(1.05);
+}
+
+header h1 {
+    font-family: 'Bebas Neue', 'Graduate', cursive;
+    font-size: 3.8rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 3px 3px 0px #000, 
+                 6px 6px 0px rgba(0,0,0,0.2);
+    font-weight: 900;
+    color: var(--vermelho-filme);
+    letter-spacing: 2px;
+}
+
+/* MENU */
+nav {
+    background: #2d2d2d;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid var(--vermelho-filme);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    display: block;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background: #3d3d3d;
+    color: var(--destaque);
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background: var(--destaque);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+nav a:hover::after {
+    width: 80%;
+}
+
+/* CONTEÚDO */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: rgba(255,255,255,0.08);
+    margin: 2rem 0;
+    padding: 2.5rem;
+    border-radius: 12px;
+    border: 1px solid #444;
+    border-left: 5px solid var(--vermelho-filme);
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(139, 0, 0, 0.1);
+}
+
+h2 {
+    color: var(--vermelho-filme);
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #666;
+    padding-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+/* IMAGENS DO ELENCO */
+.ator {
+    display: flex;
+    align-items: flex-start;
+    margin: 2rem 0;
+    gap: 1.5rem;
+}
+
+.ator img {
+    width: 150px;
+    border-radius: 8px;
+    border: 3px solid var(--vermelho-filme);
+    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.3);
+    object-fit: cover;
+}
+
+.ator img:hover {
+    border-color: var(--destaque);
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(139, 0, 0, 0.5);
+}
+
+.info-ator {
+    flex: 1;
+}
+
+/* EQUIPE TÉCNICA COM IMAGENS */
+.equipe-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.membro-equipe {
+    background: rgba(255,255,255,0.08);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    border-left: 4px solid var(--vermelho-filme);
+    transition: all 0.3s ease;
+}
+
+.membro-equipe img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid var(--vermelho-filme);
+    margin-bottom: 1rem;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(139, 0, 0, 0.3);
+}
+
+.membro-equipe img:hover {
+    border-color: var(--destaque);
+    transform: scale(1.05);
+}
+
+.membro-equipe:hover {
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.12);
+    box-shadow: 0 5px 15px rgba(139, 0, 0, 0.3);
+}
+
+.membro-equipe h3 {
+    color: var(--vermelho-filme);
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.membro-equipe p {
+    color: #ccc;
+    font-weight: bold;
+}
+
+/* SEÇÃO SOBRE O FILME */
+.info-filme {
+    background: rgba(255,255,255,0.08);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+    border-left: 4px solid var(--vermelho-filme);
+}
+
+.info-filme p {
+    margin: 0.8rem 0;
+    font-size: 1.1rem;
+}
+
+strong {
+    color: var(--vermelho-filme);
+}
+
+/* SINOPSE */
+.sinopse {
+    background: rgba(255,255,255,0.05);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #444;
+}
+
+.sinopse p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: #ccc;
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(135deg, #2d2d2d, #3d3d3d);
+    color: white;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    margin-top: 3rem;
+    border-top: 3px solid var(--vermelho-filme);
+}
+
+.footer-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.referencias a {
+    color: var(--vermelho-filme);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.referencias a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .poster {
+        max-width: 150px;
+    }
+    
+    .poster-destaque {
+        max-width: 200px;
+    }
+    
+    section {
+        padding: 1.5rem;
+        margin: 1rem 0;
+    }
+    
+    .ator {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .ator img {
+        margin: 0 auto 1rem;
+        width: 120px;
+    }
+    
+    .equipe-lista {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .membro-equipe img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav a {
+        padding: 0.8rem 1rem;
+    }
+}

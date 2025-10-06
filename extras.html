@@ -5,24 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>10 Coisas que Eu Odeio em Você - Extras</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <div class="background-effects">
+        <div class="floating-heart">♥</div>
+        <div class="floating-star">★</div>
+        <div class="floating-music">♪</div>
+    </div>
+
     <header>
         <img src="images/poster2.jpg" alt="Pôster do filme" class="poster-destaque">
         <h1>10 Coisas que Eu Odeio em Você</h1>
+        <div class="subtitle">Curiosidades e extras!</div>
     </header>
 
     <nav>
         <ul>
-            <li><a href="index.html">Sobre o Filme</a></li>
-            <li><a href="elenco.html">Elenco e Equipe</a></li>
-            <li><a href="extras.html">Extras</a></li>
+            <li><a href="index.html"><i class="fas fa-film"></i> Sobre o Filme</a></li>
+            <li><a href="elenco.html"><i class="fas fa-users"></i> Elenco e Equipe</a></li>
+            <li><a href="extras.html" class="nav-active"><i class="fas fa-star"></i> Extras</a></li>
         </ul>
     </nav>
 
     <main>
         <section id="trilha-sonora">
-            <h2>Trilha Sonora</h2>
+            <h2><i class="fas fa-music"></i> Trilha Sonora</h2>
             <p>A trilha sonora é um marco dos anos 90, incluindo:</p>
             <ul class="trilha-lista">
                 <li>"I Want You to Want Me" - Letters to Cleo</li>
@@ -34,48 +42,59 @@
         </section>
 
         <section id="curiosidades">
-            <h2>Curiosidades</h2>
+            <h2><i class="fas fa-lightbulb"></i> Curiosidades</h2>
             <div class="curiosidade">
-                <h3> Adaptação Shakespeariana</h3>
+                <h3><i class="fas fa-theater-masks"></i> Adaptação Shakespeariana</h3>
                 <p>O filme é uma adaptação moderna de "A Megera Domada" de William Shakespeare. O nome "Stratford" é uma homenagem à cidade natal do dramaturgo.</p>
                 <img src="images/paintball.jpg" alt="Kat e Patrick no paintball" class="poster">
             </div>
             
             <div class="curiosidade">
-                <h3>🎸 Cena Musical Espontânea</h3>
+                <h3><i class="fas fa-microphone-alt"></i> Cena Musical Espontânea</h3>
                 <p>A icônica cena onde Patrick canta "Can't Take My Eyes Off You" no estádio foi improvisada por Heath Ledger, que convenceu o diretor a deixá-lo performar genuinamente.</p>
                  <img src="images/cenadança.jpg" alt="Heath Ledger dançando Can't take my eyes off you" class="poster">
             </div>
 
             <div class="curiosidade">
-                <h3>📝 Poema Autêntico</h3>
+                <h3><i class="fas fa-pencil-alt"></i> Poema Autêntico</h3>
                 <p>O poema "10 Coisas que Eu Odeio em Você" foi escrito pela própria atriz Julia Stiles, que contribuiu com suas próprias experiências emocionais.</p>
                 <img src="images/cenapoema.jpg" alt="Kat lendo o poema" class="poster">
             </div>
 
             <div class="curiosidade">
-                <h3>🎬 Estreias Importantes</h3>
+                <h3><i class="fas fa-video"></i> Estreias Importantes</h3>
                 <p>Este foi um dos primeiros filmes principais de Heath Ledger e Joseph Gordon-Levitt, lançando suas carreiras internacionais.</p>
                 <img src="images/elencoprincipal.jpg" alt="Kat lendo o poema" class="poster">
-                
             </div>
         </section>
 
         <section id="premios">
-            <h2>Prêmios e Indicações</h2>
+            <h2><i class="fas fa-trophy"></i> Prêmios e Indicações</h2>
             <ul>
                 <li><strong>MTV Movie Awards 2000:</strong> Melhor Performance Feminina (Julia Stiles) - Indicada</li>
                 <li><strong>Teen Choice Awards 1999:</strong> Filme do Verão - Vencedor</li>
                 <li><strong>YoungStar Awards 1999:</strong> Melhor Atriz Jovem (Julia Stiles) - Indicada</li>
             </ul>
         </section>
+
+        <div class="y2k-banner">
+            <marquee behavior="scroll" direction="left">
+                ★★★ EXTRAS E CURIOSIDADES! ★★★ TRILHA SONORA MARAVILHOSA ★ 
+                CENAS ICÔNICAS ★ PRÊMIOS ★ ASSISTA O FILME! ★★★
+            </marquee>
+        </div>
     </main>
 
     <footer>
         <div class="footer-info">
             <p><strong>Filme Cult:</strong> Ícone dos anos 90</p>
         </div>
-        <p>&copy; 2025 - Projeto Acadêmico</p>
+        <div class="webring">
+            <p><img src="data:image/gif;base64,R0lGODlhEAAQAPIAAAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAIALAAAAAAQABAAAAMjCLrc/jDKSatlQtScNt/oCgA7" alt="Webring"> Anos 90 Webring | <a href="#">Site Anterior</a> | <a href="#">Próximo Site</a></p>
+        </div>
+        <p>&copy; 2025 - Projeto Acadêmico | <span id="visitor-counter">Visitante nº: 3847</span></p>
     </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>

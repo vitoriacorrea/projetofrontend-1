@@ -5,26 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>10 Coisas que Eu Odeio em Você - Sobre</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
+    <div class="background-effects">
+        <div class="floating-heart">♥</div>
+        <div class="floating-star">★</div>
+        <div class="floating-music">♪</div>
+    </div>
 
- 
+    <header>
         <img src="images/poster2.jpg" alt="Pôster do filme 10 Coisas que Eu Odeio em Você" class="poster-destaque">
         <h1>10 Coisas que Eu Odeio em Você</h1>
+        <div class="subtitle">Um clássico dos anos 90!</div>
     </header>
 
     <nav>
         <ul>
-            <li><a href="index.html">Sobre o Filme</a></li>
-            <li><a href="elenco.html">Elenco e Equipe</a></li>
-            <li><a href="extras.html">Extras</a></li>
+            <li><a href="index.html" class="nav-active"><i class="fas fa-film"></i> Sobre o Filme</a></li>
+            <li><a href="elenco.html"><i class="fas fa-users"></i> Elenco e Equipe</a></li>
+            <li><a href="extras.html"><i class="fas fa-star"></i> Extras</a></li>
         </ul>
     </nav>
 
     <main>
         <section id="sobre">
-            <h2>Sobre o Filme</h2>
+            <h2><i class="fas fa-info-circle"></i> Sobre o Filme</h2>
             <div class="info-filme">
                 <p><strong>Ano de Lançamento:</strong> 1999</p>
                 <p><strong>Gênero:</strong> Comédia Romântica, Teen</p>
@@ -33,10 +39,18 @@
             </div>
             
             <article class="sinopse">
-                <h3>Sinopse</h3>
+                <h3><i class="fas fa-book-open"></i> Sinopse</h3>
                 <p>Baseado na obra "A Megera Domada" de Shakespeare, o filme acompanha a história das irmãs Stratford: Bianca, a caçula popular e desejada, e Kat, sarcástica e amargurada. Na trama, somos apresentados ao jovem Cameron em seu primeiro dia em uma nova escola. Ao caminhar pelos corredores, o rapaz se depara com Bianca e se apaixona perdidamente. Ao tentar se aproximar da garota, descobre um empecilho: ela só poderia namorar caso Kat o fizesse primeiro. Pensando nisso, Cameron decide bolar um plano: ele convenceria o bad boy da escola, Patrick Verona, a conquistar o coração de pedra de Kat. E essa, com certeza, não será uma tarefa fácil.</p>
             </article>
         </section>
+
+        <div class="y2k-banner">
+            <marquee behavior="scroll" direction="left">
+                ★★★ 10 COISAS QUE EU ODEIO EM VOCÊ - UM CLÁSSICO DOS ANOS 90! ★★★ 
+                HEATH LEDGER ★ JULIA STILES ★ JOSEPH GORDON-LEVITT ★ 
+                ASSISTA AGORA! ★★★
+            </marquee>
+        </div>
     </main>
 
     <footer>
@@ -50,7 +64,12 @@
             <a href="https://www.imdb.com/title/tt0147800/" target="_blank">IMDb</a> |
             <a href="https://www.rottentomatoes.com/m/10_things_i_hate_about_you" target="_blank">Rotten Tomatoes</a>
         </div>
-        <p>&copy; 2025 - Projeto Acadêmico</p>
+        <div class="webring">
+            <p><img src="data:image/gif;base64,R0lGODlhEAAQAPIAAAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAIALAAAAAAQABAAAAMjCLrc/jDKSatlQtScNt/oCgA7" alt="Webring"> Anos 90 Webring | <a href="#">Site Anterior</a> | <a href="#">Próximo Site</a></p>
+        </div>
+        <p>&copy; 2025 - Projeto Acadêmico | <span id="visitor-counter">Visitante nº: 3847</span></p>
     </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>

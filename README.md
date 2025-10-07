@@ -1,14 +1,18 @@
-# Projeto Página do filme "10 Coisas Que Eu Odeio Em Você"
+# Projeto Front End - Página do filme "10 Coisas Que Eu Odeio Em Você"
 
 ##  Informações do Projeto
 **Disciplina:** Front End I 
+
 **Curso:** Análise e Desenvolvimento de Sistemas  
+
 **Professor:** Ana Scharf  
+
 **Data de Entrega:** 06/10/2025  
+
 **Aluna:** Vitoria Corrêa
 
 ## Sobre o Projeto
-Este projeto consiste no desenvolvimento de um website sobre o filme **"10 Cigarettes"**, atendendo aos requisitos da disciplina de Front End 1. O site apresenta informações sobre o filme, elenco, equipe técnica e recursos extras, seguindo as especificações do documento do projeto.
+Este projeto consiste no desenvolvimento de um website sobre o filme **"10 Coisas Que Eu Odeio em Você"**, atendendo aos requisitos da disciplina de Front End I. O site apresenta informações sobre o filme, elenco, equipe técnica e recursos extras, seguindo as especificações do documento do projeto.
 
 ## Requisitos Atendidos
 
@@ -28,11 +32,10 @@ Este projeto consiste no desenvolvimento de um website sobre o filme **"10 Cigar
    - Diretor, roteirista e produtores
    - Equipe técnica completa
 
-3
-### Organização do Site
-- **3 arquivos HTML distintos** interligados
-- **Menu de navegação consistente** em todas as páginas
-- **Estrutura semântica** adequada
+3. **Organização do Site**
+- 3 arquivos HTML distintos interligados
+- Menu de navegação consistente em todas as páginas
+- Estrutura semântica adequada
 
 ##  Recursos de HTML e CSS Utilizados
 

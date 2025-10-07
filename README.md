@@ -1,4 +1,4 @@
-# README - Projeto Página do filme "10 Coisas Que Eu Odeio Em Você"
+# Projeto Página do filme "10 Coisas Que Eu Odeio Em Você"
 
 ##  Informações do Projeto
 **Disciplina:** Front End I 
@@ -66,10 +66,6 @@ Este projeto consiste no desenvolvimento de um website sobre o filme **"10 Cigar
    - Múltiplas camadas de animação
    - Efeito de profundidade
 
-3. **Design Responsivo**
-   - Computadores (> 768px) - Layout completo
-   - Tablets (768px) - Adaptação do grid
-   - Smartphones (< 768px) - Layout vertical
 
 ## Responsividade
 

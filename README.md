@@ -28,8 +28,7 @@ Este projeto consiste no desenvolvimento de um website sobre o filme **"10 Coisa
    - Diretor, roteirista e produtores
    - Equipe técnica completa
 
-3. 
- **Organização do Site**
+3. **Organização do Site**
 - 3 arquivos HTML distintos interligados
 - Menu de navegação consistente em todas as páginas
 - Estrutura semântica adequada

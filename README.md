@@ -1,10 +1,14 @@
-# Projeto Página do filme "10 Coisas Que Eu Odeio Em Você"
+# Projeto F Página do filme "10 Coisas Que Eu Odeio Em Você"
 
 ##  Informações do Projeto
 **Disciplina:** Front End I 
+
 **Curso:** Análise e Desenvolvimento de Sistemas  
+
 **Professor:** Ana Scharf  
+
 **Data de Entrega:** 06/10/2025  
+
 **Aluna:** Vitoria Corrêa
 
 ## Sobre o Projeto

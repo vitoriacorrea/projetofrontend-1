@@ -67,9 +67,9 @@ Este projeto consiste no desenvolvimento de um website sobre o filme **"10 Cigar
    - Efeito de profundidade
 
 3. **Design Responsivo**
-   - **Computadores** (> 768px) - Layout completo
-   - **Tablets** (768px) - Adaptação do grid
-   - **Smartphones** (< 768px) - Layout vertical
+   - Computadores (> 768px) - Layout completo
+   - Tablets (768px) - Adaptação do grid
+   - Smartphones (< 768px) - Layout vertical
 
 ## Responsividade
 
@@ -85,5 +85,6 @@ O site foi desenvolvido com abordagem **mobile-first** e se adapta a:
 3. Navegue entre as páginas usando o menu superior
 
 
+--
 
 *Este projeto foi desenvolvido exclusivamente para fins educacionais, atendendo aos requisitos da disciplina Front End I do Instituto Federal de Santa Catarina - Campus São José. Todo o conteúdo foi produzido originalmente por mim, conforme exigido no documento do projeto*

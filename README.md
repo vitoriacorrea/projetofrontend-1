@@ -1,4 +1,4 @@
-# Projeto F Página do filme "10 Coisas Que Eu Odeio Em Você"
+# Projeto Front End - Página do filme "10 Coisas Que Eu Odeio Em Você"
 
 ##  Informações do Projeto
 **Disciplina:** Front End I 
